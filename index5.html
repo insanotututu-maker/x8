@@ -1,0 +1,99 @@
+HTML
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <!-- Meta viewport requerido (Semana 1) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevPortfolio - Carlos Mendoza</title>
+  
+  <!-- CDN de Bootstrap 5 (Semana 1) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- 1. Navbar colapsable superior (Semana 3) -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">DevPortfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#hero">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 2. Hero Section (Semana 3) -->
+  <header id="hero" class="bg-light text-center py-5 border-bottom">
+    <div class="container py-4">
+      <!-- Nombre con la clase display-2 requerida -->
+      <h1 class="display-2 fw-bold text-primary">Carlos Mendoza</h1>
+      <!-- Subtítulo usando la clase lead requerida -->
+      <p class="lead text-secondary">Desarrollador Web Frontend & Especialista UI/UX</p>
+    </div>
+  </header>
+
+  <!-- 3. Sección de Proyectos (Semana 2) -->
+  <main id="proyectos" class="container py-5">
+    <h2 class="text-center mb-4">Mis Proyectos</h2>
+    
+    <!-- Rejilla con la clase row g-4 requerida -->
+    <div class="row g-4">
+      
+      <!-- Tarjeta 1 (col-12 col-md-4) -->
+      <div class="col-12 col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Proyecto 1</h5>
+            <p class="card-text text-muted">Descripción breve del proyecto web desarrollado con tecnologías modernas.</p>
+          </div>
+          <div class="card-footer bg-transparent border-0 pb-3">
+            <a href="#" class="btn btn-outline-primary btn-sm">Ver Proyecto</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tarjeta 2 (col-12 col-md-4) -->
+      <div class="col-12 col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Proyecto 2</h5>
+            <p class="card-text text-muted">Diseño de interfaz de usuario enfocado en la experiencia e interacción del usuario.</p>
+          </div>
+          <div class="card-footer bg-transparent border-0 pb-3">
+            <a href="#" class="btn btn-outline-primary btn-sm">Ver Proyecto</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tarjeta 3 (col-12 col-md-4) -->
+      <div class="col-12 col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Proyecto 3</h5>
+            <p class="card-text text-muted">Aplicación web responsiva adaptada a dispositivos móviles y de escritorio.</p>
+          </div>
+          <div class="card-footer bg-transparent border-0 pb-3">
+            <a href="#" class="btn btn-outline-primary btn-sm">Ver Proyecto</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- CDN de JS para el funcionamiento del Navbar colapsable -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
